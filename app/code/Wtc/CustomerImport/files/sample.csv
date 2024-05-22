@@ -1,0 +1,6 @@
+fname,lname,emailaddress,,city,country_id,postcode,region,region_id,street,telephone
+Bob,Smith,bob.smith@example.com,,ohio,US,4321,Alaska,2,"B-808, sdfsdf",7894561236
+Caterina,Sal,caterina.sal@example.com,,ohio,US,4321,Alaska,2,"B-808, sdfsdf",7894561236
+Frazer,Miller,frazer.miller@example.com,,ohio,US,4321,Alaska,2,"B-808, sdfsdf",7894561236
+Zarife,Kozinc,zarife.kozinc@example.com,,ohio,US,4321,Alaska,2,"B-808, sdfsdf",7894561236
+Hozumi,Furutani,hozumi.furutani@example.com,,ohio,US,4321,Alaska,2,"B-808, sdfsdf",7894561236

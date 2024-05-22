@@ -1,0 +1,42 @@
+{
+    "name": "vml/magento2-module-customerimport",
+    "description": "Customer Import via CSV & JSON",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Vijay Rami",
+            "email": "vijaymrami@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version":"1.0",
+    "require": {
+        "php": ">=8.0.0",
+        "magento/module-customer": "103.0.*",
+        "magento/module-customer-import-export": "100.4.*"
+    },
+    "repositories": [
+	{
+	    "type": "package",
+	    "package": {
+	        "name": "vml/magento2-module-customerimport",
+	        "version": "1.0",
+	        "source": {
+	            "url": "https://github.com/vijayrami/Vml_CustomerImport.git",
+	            "type": "git",
+	            "reference": "main"
+	        }
+	    }
+	}
+	],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vml\\CustomerImport\\": ""
+        }
+    }
+}

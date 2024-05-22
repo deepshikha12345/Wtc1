@@ -1,0 +1,40 @@
+{
+    "name": "wtc/magento2-module-customerimport",
+    "description": "Customers Import via CSV & JSON file",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Deepshikha Makwana",
+            "email": "deepshikhaparmar89@gmail.com"
+        }
+    ],
+    "version":"2.0",
+    "require": {
+        "php": ">=8.0",
+        "magento/module-customer": "105.0.*",
+        "magento/module-customer-import-export": "100.6.*"
+    },
+    "repositories": [
+	{
+	    "type": "package",
+	    "package": {
+	        "name": "Wtc/magento2-module-customerimport",
+	        "version": "2.0",
+	        "source": {
+	            "url": "https://github.com/deepshikha12345/wtc.git",
+	            "type": "git",
+	            "reference": "main"
+	        }
+	    }
+	}
+	],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wtc\\CustomerImport\\": ""
+        }
+    }
+}
