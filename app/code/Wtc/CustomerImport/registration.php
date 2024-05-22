@@ -11,3 +11,6 @@ ComponentRegistrar::register(
     'Wtc_CustomerImport',
     __DIR__
 );
+
+
+//deepshikha
